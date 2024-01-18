@@ -4,7 +4,7 @@ List
 <nav>
   {% assign baseurl = "/jekyll-website" | join: page.url %}
   {% for item in site.nav %}
-     baseurl: {{ baseurl }}
+     baseurl: {{ "/jekyll-website" | join: page.url }}
     <a href="{{ item.link }}" 
       {% if  baseurl == item.link %} style="color: red;" {% endif %}
     >
