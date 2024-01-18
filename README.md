@@ -3,7 +3,9 @@ List
 - [Blog](https://jaspervincent.github.io)
 - [test](https://{{ site.url }}/archive.html)
 
+
 <nav>
+  site.url: {{ site.url }}
   site.baseurl: {{ site.baseurl }}<br>
   page.url: {{ page.url }} <br>
   
