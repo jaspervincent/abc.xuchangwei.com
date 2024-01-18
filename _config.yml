@@ -14,3 +14,7 @@ nav:
 
 plugins:
   - jekyll-feed
+
+collections:
+  posts:
+    permalink: /:year/:month/:day/:title/
