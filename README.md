@@ -1,11 +1,11 @@
 # Jekyll-website
 List
 - [Blog](https://jaspervincent.github.io)
-- [test](https://{{ site.url }}/archive.html)
+- [test](https://{{ site.url }}{{ site.baseurl }}/archive.html)
 
 
 <nav>
-  site.url: {{ site.url }}
+  site.url: {{ site.url }}<br>
   site.baseurl: {{ site.baseurl }}<br>
   page.url: {{ page.url }} <br>
   
