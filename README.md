@@ -3,8 +3,8 @@ List
 - [Blog](https://jaspervincent.github.io)
 <nav>
   {% assign baseurl = "/jekyll-website" | join: page.url %}
+  baseurl: {{ baseurl }}
   {% for item in site.nav %}
-     baseurl: {{ "/jekyll-website" | join: page.url }}
     <a href="{{ item.link }}" 
       {% if  baseurl == item.link %} style="color: red;" {% endif %}
     >
