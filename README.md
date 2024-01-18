@@ -1,7 +1,7 @@
 # Jekyll-website
 List
 - [Blog](https://jaspervincent.github.io)
-- [test](https://{{ site.url }}{{ site.baseurl }}/archive.html)
+- [test]({{ site.url }}{{ site.baseurl }}/archive.html)
 
 
 <nav>
