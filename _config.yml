@@ -6,7 +6,7 @@ theme: jekyll-theme-modernist
 
 nav:
  - name: 中文
-   link: {{ site.baseurl }}
+   link: {{ site.baseurl }}/
  - name: 捐赠
    link: /jekyll-website/donations/
  - name: En
