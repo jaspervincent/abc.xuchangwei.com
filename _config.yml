@@ -1,4 +1,16 @@
+title      : jasperVincent的项目列表
+lang       : zh
+description: 编程写作
+copyright  : © 2021 jasperVincent All Rights Reserved
 theme: jekyll-theme-modernist
+
+nav:
+ - name: 中文
+   link: /
+ - name: 捐赠
+   link: /donations/
+ - name: En
+   link: /about/
 
 plugins:
   - jekyll-feed
