@@ -8,11 +8,13 @@ title: Blog
 <ul>
 {% for post in site.posts %}
   <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
     <p>{{ post.excerpt }}</p>
   </li>
 {% endfor %}
 </ul>
+
+#------------------
 
 <ul>
   <div class="char-total-counter">
@@ -43,7 +45,7 @@ title: Blog
     <div class="post-info">
       <div class="category-area">
         {% for category in post.categories %}
-        <a href="{{ site.url }}/tags.html#{{ category }}">
+        <a href="{{ site.url }}{{ site-baseurl }}/tags.html#{{ category }}">
           <div class="category">
             {{ category }}
           </div>
