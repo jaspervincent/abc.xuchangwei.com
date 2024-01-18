@@ -6,11 +6,11 @@ theme: jekyll-theme-modernist
 
 nav:
  - name: 中文
-   link: /
+   link: /jekyll-website/
  - name: 捐赠
-   link: /donations/
+   link: /jekyll-website/donations/
  - name: En
-   link: /about/
+   link: /jekyll-website/about/
 
 plugins:
   - jekyll-feed
