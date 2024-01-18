@@ -21,7 +21,7 @@
             </div>
             <div class="category-area">
                 「{% for category in page.categories %}
-                <a href="{{ site.url }}/tags.html#{{ category }}">
+                <a href="{{ site.url }}{{ site.baseurl }}/tags.html#{{ category }}">
                     <div class="category">
                         {{ category }}
                     </div>
