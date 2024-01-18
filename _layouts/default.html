@@ -20,10 +20,8 @@
         <p>{{ page.description | default: site.description }}</p>
 
         <ul>
-        {% assign baseurl = "/jekyll-website" | join: page.url %}
-        
         {% for item in site.nav %}
-          {% if baseurl == item.link %}
+          {% if {{ site.baseurl }}{{page.url}} == item.link %}
             <li style="background-color:#069">
               <a href="{{ item.link }}">
                 <strong>{{ item.name }}</strong>
