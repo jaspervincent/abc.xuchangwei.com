@@ -3,15 +3,6 @@ layout: default
 title: Blog
 ---
 
-    <head>
-        <!--% include header.html %-->
-
-        {% assign site-url = "https://manateelazycat.github.io" %}
-        <link rel="stylesheet" href="{{site-url}}/styles/font.css">
-        <link rel="stylesheet" media="screen and (min-width: 600px)" href="{{site-url}}/styles/home.css">
-        <link rel="stylesheet" media="screen and (max-width: 600px)" href="{{site-url}}/styles/home_mobile.css">
-    </head>
-
 <h1>Latest Posts</h1>
 
 <ul>
@@ -26,7 +17,7 @@ title: Blog
 #------------------
 
 <ul>
-  <div class="char-total-counter">
+  <div class="char-total-counter" style="display: flex;margin-right: 20px;">
     {% assign count = 0 %}
     {% for post in site.posts %}
     {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
@@ -51,7 +42,7 @@ title: Blog
         {{ post.content | strip_html | truncate: 80, " ..." }}
       </div>
     </a>
-    <div class="post-info">
+    <div class="post-info" style="display: flex;">
       <div class="category-area">
         {% for category in post.categories %}
         <a href="{{ site.url }}{{ site.baseurl }}/tags.html#{{ category }}">
@@ -65,7 +56,7 @@ title: Blog
         <div class="char-counter">
           {{ post.content | strip_html | strip_newlines | remove: " " | size }}字
         </div>
-        
+
         <div class="post-date">
           {{ post.date | date: "%Y-%m-%d" }}
         </div>
