@@ -42,7 +42,7 @@ title: Blog
         {{ post.content | strip_html | truncate: 80, " ..." }}
       </div>
     </a>
-    <div class="post-info" style="display: flex;">
+    <div class="post-info">
       <div class="category-area">
         {% for category in post.categories %}
         <a href="{{ site.url }}{{ site.baseurl }}/tags.html#{{ category }}">
@@ -52,7 +52,7 @@ title: Blog
         </a>
         {% endfor %}
       </div>
-      <div class="right-info-area">
+      <div class="right-info-area" style="display: flex;">
         <div class="char-counter">
           {{ post.content | strip_html | strip_newlines | remove: " " | size }}字
         </div>
