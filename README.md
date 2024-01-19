@@ -5,7 +5,7 @@ List
 - [hugo-website](https://jaspervincent.github.io/hugo-website)
 
 - [jekyll-归档]({{ site.url }}{{ site.baseurl }}/archive.html)
-
+- [hugo-归档](https://jaspervincent.github.io/hugo-website/tags/)
 
 <nav>
   site.url: {{ site.url }}<br>
