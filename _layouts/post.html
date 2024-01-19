@@ -15,18 +15,15 @@
 -->
     <body>
         <!-- % include navigatebar.html % -->
-        <div class="navigatebar">
-          <div class="navigatebar-button navigatebar-mine">
+        <div class="site-masthead">
+          <div class="container">
+            <nav class="nav">
             <a href="{{ site.url }}{{site.baseurl}}/">Home</a>
-          </div>
-          <div class="navigatebar-button">
-            <a href="{{ site.url }}{{site.baseurl}}/tags.html">Tags</a>
-          </div>
-          <div class="navigatebar-button">
-            <a href="{{ site.url }}{{site.baseurl}}/feed.xml">Feeds RSS</a>
-          </div>
-          <div class="navigatebar-button navigatebar-about">
-            <a href="{{ site.url }}{{site.baseurl}}/about/">About</a>
+              <a class="nav-link" href="{{ site.url }}{{site.baseurl}}/index.html">Home</a>
+              <a class="nav-link" href="{{ site.url }}{{site.baseurl}}/tags.html">Tags</a>
+              <a class="nav-link" href="{{ site.url }}{{site.baseurl}}/about/">About</a>
+              <a class="nav-link" href="{{ site.url }}{{site.baseurl}}/feed.xml">Feeds RSS</a>
+            </nav>
           </div>
         </div>
 
