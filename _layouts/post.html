@@ -15,6 +15,25 @@
 -->
     <body>
         <!-- % include navigatebar.html % -->
+        <div class="navigatebar">
+          <div class="navigatebar-button navigatebar-mine">
+            <a href="{{ site.url }}{{site.baseurl}}/">Home</a>
+          </div>
+          <div class="navigatebar-button">
+            <a href="{{ site.url }}{{site.baseurl}}/tags.html">Tags</a>
+          </div>
+          <div class="navigatebar-button">
+            <a href="{{ site.url }}{{site.baseurl}}/feed.xml">Feeds RSS</a>
+          </div>
+          <div class="navigatebar-button navigatebar-about">
+            <a href="{{ site.url }}{{site.baseurl}}/about/">About</a>
+          </div>
+        </div>
+
+        <div class="slogan">
+          「生活可以更简单, 欢迎来到我的开源世界」
+        </div>
+
         <div class="content-area">
             <div class="title">
                 {{ page.title }}
