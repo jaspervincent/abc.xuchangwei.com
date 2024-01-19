@@ -1,7 +1,7 @@
 # Jekyll-website
 List
 - [Blog](https://jaspervincent.github.io)
-- [jekyll-website](https://jaspervincent.github.io/jekyll-webiste)
+- [jekyll-website](https://jaspervincent.github.io/jekyll-website)
 - [hugo-website](https://jaspervincent.github.io/hugo-website)
 
 - [jekyll-归档]({{ site.url }}{{ site.baseurl }}/archive.html)
