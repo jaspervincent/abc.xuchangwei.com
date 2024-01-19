@@ -1,7 +1,7 @@
 # Jekyll-website
 List
 - [Blog](https://jaspervincent.github.io)
-- [test]({{ site.url }}{{ site.baseurl }}/archive.html)
+- [归档]({{ site.url }}{{ site.baseurl }}/archive.html)
 
 
 <nav>
@@ -10,7 +10,7 @@ List
   page.url: {{ page.url }} <br>
   
   {% assign baseurl = "/jekyll-website" | join: page.url %}
-  baseurl: {{ baseurl }}
+  baseurl: {{ baseurl }}<br>
   
   {% for item in site.nav %}
     <a href="{{ item.link }}" 
