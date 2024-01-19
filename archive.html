@@ -17,7 +17,7 @@ title: Blog
 #------------------
 
 <ul>
-  <div class="char-total-counter" style="display: flex;margin-right: 20px;">
+  <div class="char-total-counter" style="display: flex;justify-content: flex-end;margin-right: 20px;">
     {% assign count = 0 %}
     {% for post in site.posts %}
     {% assign single_count = post.content | strip_html | strip_newlines | remove: " " | size %}
@@ -42,7 +42,7 @@ title: Blog
         {{ post.content | strip_html | truncate: 80, " ..." }}
       </div>
     </a>
-    <div class="post-info">
+    <div class="post-info" style="display: flex;justify-content: space-between;">
       <div class="category-area">
         {% for category in post.categories %}
         <a href="{{ site.url }}{{ site.baseurl }}/tags.html#{{ category }}">
